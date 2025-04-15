@@ -5,7 +5,7 @@ import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <div className="px-5">
+    <div className="px-5 bg-white">
 
     <ClientWrapper>
       <HeroSection />
