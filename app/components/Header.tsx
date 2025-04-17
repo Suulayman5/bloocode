@@ -51,7 +51,6 @@ export default function Header() {
       <div className="md:bg-black bg-[url('/images/Rectangle3.png')] mx-auto min-h-[72px] w-full px-5 flex items-center">
         <div className="w-[826px]">
           <div className="md:bg-[url('/images/Rectangle3.png')] flex items-center md:w-[608px] min-h-[72px] blur-[8] ">
-            {/* <div className="bg-center"> */}
             <Image src='/images/Liveplaybutton.png' width={40} height={20} alt='background' className=''/>
           </div>
         </div>
@@ -85,8 +84,6 @@ export default function Header() {
  
             </div>
           </div>
-          {/* </div> */}
-        {/* </div> */}
       </div>
     </header>
   );

@@ -1,15 +1,18 @@
+import Ads from "./components/Ads";
 import ClientWrapper from "./components/ClieentWrapper";
-import FeaturedEpisodes from "./components/FeaturedEpisode";
-import HeroSection from "./components/HeroSection";
+import Landing from "./components/Landing";
 
 
 export default function Home() {
   return (
-    <div className="px-5 bg-white">
+    <div className=" bg-[#F6F6F6] min-h-screen">
 
     <ClientWrapper>
-      <HeroSection />
-      <FeaturedEpisodes />
+      <div className="hidden md:block">
+
+      <Ads />
+      </div>
+      <Landing />
       {/* Other components */}
     </ClientWrapper>
     </div>
