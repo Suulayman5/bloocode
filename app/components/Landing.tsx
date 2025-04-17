@@ -43,8 +43,7 @@ const Landing = () => {
   const newEpisodes = newEpisode?.data?.data ?? []
 
   return (
-    <>
-      {/* EDITOR'S PICK */}
+  <>
       <section className="py-8 px-4 md:px-16 bg-[#F6F6F6]">
         <div className="mb-6">
           <p className="text-[#282828] text-2xl font-bold">EDITOR’S PICKS</p>
@@ -127,7 +126,7 @@ const Landing = () => {
         </div>
 
         <div className="overflow-x-auto flex gap-4">
-          {trendings.map((ep, i) => (
+          {trendings.map((ep: any, i: number) => (
             <div
               key={i}
               className="rounded-md min-w-[317px] border shadow-md relative overflow-hidden"
@@ -151,7 +150,7 @@ const Landing = () => {
         </div>
 
         <div className="overflow-x-auto flex gap-4">
-          {newEpisodes.map((ep, i) => (
+          {newEpisodes.map((ep: any, i: number) => (
             <div
               key={i}
               className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
@@ -184,7 +183,7 @@ const Landing = () => {
         </div>
 
         <div className="overflow-x-auto flex gap-4 bg-[#F4F4F4] shadow-2xl">
-          {newEpisodes.map((ep, i) => (
+          {newEpisodes.map((ep: any, i: number) => (
             <div
               key={i}
               className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
@@ -200,7 +199,7 @@ const Landing = () => {
           ))}
         </div>
         <div className="overflow-x-auto flex justify-center items-center gap-4 bg-[#F4F4F4] shadow-2xl">
-          {newEpisodes.map((ep, i) => (
+          {newEpisodes.map((ep: any, i: number) => (
             <div
               key={i}
               className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
@@ -219,7 +218,7 @@ const Landing = () => {
             </div>
 
             <div className="overflow-x-auto flex gap-4">
-            {newEpisodes.map((ep, i) => (
+            {newEpisodes.map((ep: any, i: number) => (
                 <div
                 key={i}
                 className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
@@ -249,7 +248,7 @@ const Landing = () => {
             </div>
 
             <div className="overflow-x-auto flex gap-4">
-            {newEpisodes.map((ep, i) => (
+            {newEpisodes.map((ep: any, i: number) => (
                 <div
                 key={i}
                 className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
@@ -279,7 +278,7 @@ const Landing = () => {
             </div>
 
             <div className="overflow-x-auto flex gap-4">
-            {newEpisodes.map((ep, i) => (
+            {newEpisodes.map((ep: any, i: number) => (
                 <div
                 key={i}
                 className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
@@ -309,7 +308,7 @@ const Landing = () => {
             </div>
 
             <div className="overflow-x-auto flex gap-4">
-            {newEpisodes.map((ep, i) => (
+            {newEpisodes.map((ep: any, i: number) => (
                 <div
                 key={i}
                 className="rounded-md min-w-[317px] border shadow-md overflow-hidden"
